@@ -44,6 +44,7 @@ extern "C" {
 #endif
 
 #ifdef LWIP_PROVIDE_ERRNO
+#error "This fork does not support configurations with LWIP_PROVIDE_ERRNO"
 
 #define  EPERM            1  /* Operation not permitted */
 #define  ENOENT           2  /* No such file or directory */
